@@ -1,5 +1,5 @@
 build:
-	gcc -Wall gen_data.c -o gen_data
+	gcc -g -Wall gen_data.c -o gen_data
 
 gen-data:
 	./gen_data
