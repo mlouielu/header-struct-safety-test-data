@@ -11,4 +11,4 @@ pahole:
 	pahole -E -M -C foobar gen_data
 
 clean:
-	rm gen_data test.bin
+	rm -f gen_data test.bin
