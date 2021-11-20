@@ -1,6 +1,26 @@
 Header/Struct Safety Test Data
 ==============================
 
+## Example Struct Layout
+
+```
+struct velocity {
+  double x;
+  double y;
+  double z;
+};
+
+struct foobar {
+  int32_t posx;
+  int32_t posy;
+  int32_t posz;
+
+  struct velocity vel;
+
+  struct timespec curr_time;
+};
+```
+
 ## How to Use
 
 * Build
