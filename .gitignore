@@ -1,3 +1,6 @@
 *~
 #*#
 *.pyc
+
+gen_data
+test.bin
