@@ -7,5 +7,8 @@ gen-data:
 py-convert:
 	python decode_binary.py test.bin
 
+pahole:
+	pahole -E -M -C foobar gen_data
+
 clean:
 	rm gen_data test.bin
